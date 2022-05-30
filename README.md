@@ -10,6 +10,6 @@ npm i
 PASSWORD : your mysql root user password
 ```
 
-```
-Create sql file in mysql and run the creation.sql file
-```
+- Run the *creation.sql* file in MySQL before running the project
+
+- node index.js to start the project and then go to localhost:3000/
