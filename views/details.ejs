@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="details.css" />
+        <title>Details</title>
+    </head>
+    <body>
+        <h1>Query</h1>
+        <p><%= query %></p>
+
+        <h1>Results</h1>
+        <table id="records">
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+            <% records.forEach(record => { %>
+            <tr>
+                <td><%= record.username %></td>
+                <td><%= record.password %></td>
+                <td><%= record.first_name %></td>
+                <td><%= record.last_name %></td>
+            </tr>
+            <% }) %>
+        </table>
+
+        <div class="a">
+            <a href="/">Back to login</a>
+        </div>
+    </body>
+</html>
