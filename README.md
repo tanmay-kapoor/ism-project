@@ -10,8 +10,10 @@ npm i
 PASSWORD=your mysql root user password
 ```
 
+# Other instructions
+
 ```
-Run the *creation.sql* file in MySQL before running the project
+Run the creation.sql file in MySQL before running the project
 ```
 
 ```
