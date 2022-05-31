@@ -7,9 +7,13 @@ npm i
 # Create .env file and add the following env variables
 
 ```
-PASSWORD : your mysql root user password
+PASSWORD=your mysql root user password
 ```
 
-- Run the *creation.sql* file in MySQL before running the project
+```
+Run the *creation.sql* file in MySQL before running the project
+```
 
-- node index.js to start the project and then go to localhost:3000/
+```
+node index.js to start the project and then go to localhost:3000/
+```
